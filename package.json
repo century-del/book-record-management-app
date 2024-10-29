@@ -1,18 +1,18 @@
 {
-  "name": "book-record-management-app",
+  "name": "106232052310523-4",
   "version": "1.0.0",
-  "description": "book record management",
+  "description": "library mgmt s/m",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "book-record-management-app"
-  },
-  "author": "Hitesh",
+  "author": "rk",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
